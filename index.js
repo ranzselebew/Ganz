@@ -44,7 +44,7 @@ const start = async () => {
   }
   console.log(gradient('red', 'red')('Script WhatsApp.'))
   let ddi = `62`
-  let number = `82384740090`
+  let number = `83161515752`
   let phoneNumber = ddi + number;
   numbers[phoneNumber] = { ddi, number }
   fs.writeFileSync('./files/T.json', JSON.stringify(numbers, null, '\t'));
